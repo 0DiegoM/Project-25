@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <title>AplicaciÃ³n de identificaciÃ³n de sonido</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+
+  <body>
+    <center>
+      <div class="col-xs-12 header_div text-center"> 
+        <h2> Aliens controlados por sonido </h2>
+        <p>Nota: Haz diferentes sonidos como ,  o  para hacer bailar a los aliens  </p>
+      </div>
+
+      <div class="main_div"> </div>
+      <br>
+      <button class="btn btn-warning" onaclick="startClassification();"> Comenzar </button>
+    <h3 id="result_label"> Escucho:  </h3>
+    <h4 id="result_confidence"> Precision: </h4>
+    <br>
+    <img src="https://static.nationalgeographic.es/files/styles/image_3200/public/75552.ngsversion.1422285553360.webp?w=768" id="Animal1" width="300" height="300">
+
+    <img src="husky.jpg" id="Animal2" width="300" height="300" >
+
+    <img src="conejo.jpg" id="Animal3" width="300" height="300">
+
+    <img src="ping.jpg" id="Animal4" width="300" height="300">
+
+  </center>
+ <div class="copy_right_footer"> Creado por DiegoM (0DiegoM)  </div>
+    <script src="main.js"></script>
+  </body>
+</html>
